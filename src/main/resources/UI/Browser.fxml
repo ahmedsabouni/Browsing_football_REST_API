@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bum4.browsing_football_rest_api.UI.BrowserController">
+<AnchorPane xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="UI.BrowserController">
     <ImageView fx:id="back" fitHeight="457.0" fitWidth="972.0" pickOnBounds="true" preserveRatio="true">
         <Image url="@background.jpg"/>
     </ImageView>

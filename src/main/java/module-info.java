@@ -9,11 +9,8 @@ module bum4.browsing_football_rest_api {
     requires java.desktop;
     requires batik.transcoder;
     requires javafx.swing;
-
-    exports bum4.browsing_football_rest_api.UI;
-    opens bum4.browsing_football_rest_api.UI to javafx.fxml;
-    exports bum4.browsing_football_rest_api.domain_logic;
-    opens bum4.browsing_football_rest_api.domain_logic to javafx.fxml;
-    exports bum4.browsing_football_rest_api;
-    opens bum4.browsing_football_rest_api to javafx.fxml;
+    exports UI;
+    opens UI to javafx.fxml;
+    exports doman_logic;
+    opens doman_logic to javafx.fxml;
 }

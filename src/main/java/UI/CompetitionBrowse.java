@@ -1,4 +1,4 @@
-package bum4.browsing_football_rest_api;
+package UI;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,16 +8,16 @@ import org.kordamp.bootstrapfx.BootstrapFX;
 
 import java.io.IOException;
 
-public class CompetionsBrowse extends Application {
+public class CompetitionBrowse extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(CompetionsBrowse.class.getResource("Browser.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(CompetitionBrowse.class.getResource("Browser.fxml"));
         System.out.println(fxmlLoader.getLocation());
         Scene scene = new Scene(fxmlLoader.load(), 970, 430);
         scene.getStylesheets().add(BootstrapFX.bootstrapFXStylesheet());
 
         stage.sizeToScene();
-        stage.setTitle("Football competions  Browsing");
+        stage.setTitle("Football competitions  Browsing");
         stage.setScene(scene);
 
         stage.show();

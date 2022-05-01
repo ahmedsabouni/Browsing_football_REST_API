@@ -1,13 +1,14 @@
-package bum4.browsing_football_rest_api;
+package UI;
 
+import doman_logic.BufferedImageTranscoder;
+import doman_logic.Competition;
+import doman_logic.Manager;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.image.WritableImage;
-import javafx.scene.layout.AnchorPane;
 import org.apache.batik.transcoder.TranscoderException;
 import org.apache.batik.transcoder.TranscoderInput;
 import javafx.embed.swing.SwingFXUtils;

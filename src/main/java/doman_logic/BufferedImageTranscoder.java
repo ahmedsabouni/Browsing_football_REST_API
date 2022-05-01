@@ -1,6 +1,5 @@
-package bum4.browsing_football_rest_api;
+package doman_logic;
 
-import org.apache.batik.transcoder.TranscoderException;
 import org.apache.batik.transcoder.TranscoderOutput;
 import org.apache.batik.transcoder.image.ImageTranscoder;
 

@@ -92,7 +92,7 @@
                         <id>default-cli</id>
                         <configuration>
                             <mainClass>
-                                bum4.browsing_football_rest_api/bum4.browsing_football_rest_api.CompetionsBrowse
+                                UI.
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>

@@ -1,4 +1,4 @@
-package bum4.browsing_football_rest_api;
+package doman_logic;
 
 public class Competition {
     public int id;
@@ -19,7 +19,7 @@ public class Competition {
                 "ild=" + id +
                 ", area=" + area +
                 ", name='" + name + '\'' +
-                ", code=$$$$$'" + code + '\'' +
+                ", code='" + code + '\'' +
                 ", plan='" + plan + '\'' +
                 ", currentSeason=" + currentSeason +
                 ", emblemUrl='" + emblemUrl + '\'' +

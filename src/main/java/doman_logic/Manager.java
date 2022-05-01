@@ -1,4 +1,4 @@
-package bum4.browsing_football_rest_api;
+package doman_logic;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
@@ -20,7 +20,6 @@ public class Manager {
     public List<Competition> competions() {
 
         String body=request("competitions");
-        System.out.println("**"+body);
         Gson gson = new Gson();
         JsonObject jsonObject ;
         jsonObject = gson.fromJson(body, JsonObject.class);
